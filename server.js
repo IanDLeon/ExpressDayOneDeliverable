@@ -8,5 +8,5 @@ app.listen(port, () => {
 })
 
 app.get('/greeting/:name', (req,res) => {
-  res.send('Wow! Hello there, ' + req.params.name)
+  res.send('Wow! Hello, ' + req.params.name)
 })
