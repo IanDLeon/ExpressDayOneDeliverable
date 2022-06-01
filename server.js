@@ -23,3 +23,4 @@ app.get('/magic/Will%20I%20Be%20A%20Millionaire', (req, res) => {
   let rand = (Math.floor(Math.random()* magicEight.length))
   res.send(`<h1>${magicEight[rand]}</h1>`)
 })
+
